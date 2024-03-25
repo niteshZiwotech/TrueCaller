@@ -1,0 +1,28 @@
+{
+  "name": "truecaller-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fastify start app.js",
+    "dev": "fastify start -w -a 0.0.0.0 app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.8.0",
+    "@fastify/compress": "^6.5.0",
+    "@fastify/cors": "^8.5.0",
+    "@fastify/rate-limit": "^8.1.1",
+    "@fastify/sensible": "^5.5.0",
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^1.10.2",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.25.2",
+    "fastify-cli": "^5.9.0",
+    "fastify-plugin": "^4.5.1",
+    "fs": "0.0.1-security",
+    "truecallerjs": "^2.2.0"
+  }
+}
